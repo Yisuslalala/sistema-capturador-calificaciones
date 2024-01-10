@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema Capturador de Calificaciones</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="sc-container">
+      <h1 class="sc-title">Sistema Capturador</h1>
+      <h3 class="sc-subtitle">
+        Bienvenido al sistema capturador de califcaciones
+      </h3>
+      <p class="sc-message">Los datos requeridos para el alumno son:</p>
+      <ul class="sc-list">
+        <li class="sc-list__item">Nombre</li>
+        <li class="sc-list__item">Apellido</li>
+        <li class="sc-list__item">Carrera</li>
+        <li class="sc-list__item">Semestre</li>
+        <p class="sc-message">Las materias requeridas son:</p>
+        <ol>
+          <li class="sc-list__item">Programación</li>
+          <li class="sc-list__item">Inglés</li>
+          <li class="sc-list__item">Matemáticas</li>
+          <li class="sc-list__item">Contabilidad</li>
+          <li class="sc-list__item">Administración</li>
+        </ol>
+      </ul>
+      <p class="sc-button__message sc-message">
+        Para agregar un alumno presione el siguiente botón:
+      </p>
+      <div>
+        <button class="sc-button" onclick="agregarAlumno()">
+          Agregar alumno
+        </button>
+        <button class="sc-button" onclick="mostrarPromedio()">
+          Promedio general
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
